@@ -1,0 +1,28 @@
+.update{
+    position: absolute;
+    width: 80px;
+    height: 10px;
+    top: 37%;
+    left: 25%;
+    cursor: pointer;
+
+}
+/*break in patient update*/
+
+.delete{
+    position: absolute;
+    width: 80px;
+    height: 10px;
+    top: 37%;
+    left: 33%;
+    cursor: pointer;
+}
+.add{
+    width: 80px;
+    height: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 35%;
+    left: 17%;
+
+}

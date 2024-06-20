@@ -1,0 +1,32 @@
+table{
+    border-collapse:collapse;
+    width: 80%;
+    position: absolute;
+    top: 40%;
+    left:18%;
+    z-index: 3;
+}
+th, td{
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    justify-content: center;
+    background-color: #eeee;
+    font-family: "Poppins",sans-serif;
+}
+tr:nth-child(even){
+    background-color: #000;
+}
+
+/*add new button*/
+.add{
+    width: 10%;
+    height: 5%;
+    padding: 8px 15px 8px 15px;
+    margin:10px 0px 15px 0px;
+    transition: b0x-shadow 0.25s;
+    position: absolute;
+    top: 30%;
+    left: 20%; 
+    color: #21b722;
+}

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*for*/
+*{
+    background: #eeee;
+    margin: 1%;
+    text-align: center;
+    display:flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-evenly;
+
+    
+}
+label,input{
+    width: 100px;
+    height: 15px;
+    padding: 14px ;
+    border-radius: 10px;
+   
+
+}
+.submit{
+    position: absolute;
+    width: 80px;
+    height: 10px;
+    top: 15%;
+    left: 90%;
+    background: hsl(120, 69%, 42%);
+    cursor: pointer;
+    -webkit-transition-duration: 0.3;
+    transition-duration: 0.3;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+.submit:hover, .submit:focus, .submit:active{
+    box-shadow: 0 0 20px rgba (0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: #21b722;
+}
+.submit1{
+    position: absolute;
+    width: 80px;
+    height: 10px;
+    top: 25%;
+    left: 70%;
+    background: hsl(120, 69%, 42%);
+    cursor: pointer;
+    -webkit-transition-duration: 0.3;
+    transition-duration: 0.3;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    text-align: center;
+}
+.submit:hover, .submit:focus, .submit:active{
+    box-shadow: 0 0 20px rgba (0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: #21b722;
+}
+
+.pd {
+    position: relative;
+    top: 100px;
+    left: -600px;
+}
+
+.pd1 {
+    position: relative;
+    top: 0;
+    left: 200px;
+}
+/*form buttons*/
+.delete{
+    position: absolute;
+    width: 80px;
+    height: 10px;
+    top: 5%;
+    left: 60%;
+    background: hsl(120, 69%, 42%);
+    cursor: pointer;
+    -webkit-transition-duration: 0.3;
+    transition-duration: 0.3;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+.delete:hover, .delete:focus, .delete:active{
+    box-shadow: 0 0 20px rgba (0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: #21b722;
+}
+.update{
+    position: absolute;
+    width: 80px;
+    height: 10px;
+    top: 28%;
+    left: 45%;
+    background: hsl(120, 69%, 42%);
+    cursor: pointer;
+    -webkit-transition-duration: 0.3;
+    transition-duration: 0.3;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+.update:hover, .update:focus, .update:active{
+    box-shadow: 0 0 20px rgba (0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: #21b722;
+}
+/*break line in form*/
+.idbtn{
+    position: relative;
+    top: 40%;
+    right:90%;
+}
+.btn1{
+    position: relative;
+    top: 100%;
+    left: -65%;
+}
